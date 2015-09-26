@@ -1,0 +1,27 @@
+{
+  "name": "3kit",
+  "version": "0.0.1",
+  "description": "A Three.js starter kit.",
+  "main": "index.js",
+  "scripts": {
+    "test": ":",
+    "pro": "webpack -p --config ./pro.babel.js",
+    "start": "babel-node --stage 0 ."
+  },
+  "keywords": [
+    "three",
+    "3d"
+  ],
+  "author": "synchronous",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "three": "^0.72.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.2.0"
+  }
+}
