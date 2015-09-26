@@ -1,7 +1,7 @@
 {
   "name": "3kit",
   "version": "0.0.1",
-  "description": "A Three.js starter kit.",
+  "description": "A modern Three.js starter kit.",
   "main": "index.js",
   "scripts": {
     "test": ":",
